@@ -1,0 +1,6 @@
+.ticket{
+	display: none;
+}
+.ticket.active{
+	display: block;
+}

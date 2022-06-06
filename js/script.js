@@ -17,12 +17,11 @@ generateButton.addEventListener('click',
 			discount = price * 40 / 100;
 		}
 		const finalPrice = price - discount;
-
-		//consolelog
-		console.log(userName);
-		console.log(userKm);
-		console.log(userAge);
-		console.log(finalPrice);
+		//stampa
+		document.getElementById('ticket-name').innerHTML = userName
+		document.getElementById('ticket-price').innerHTML = finalPrice.toFixed(2)
+		document.getElementById('ticket').classList.add('active')
+		
 
 	}
 );
