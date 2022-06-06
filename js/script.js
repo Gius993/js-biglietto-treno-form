@@ -25,13 +25,19 @@ generateButton.addEventListener('click',
 
 	}
 );
-
+//annulla
 const cancelTicket = document.getElementById('cancel-ticket');
 cancelTicket.addEventListener('click',
 	
 	function() {
 		
-		alert('test');
+		    document.getElementById('user-name').value ='';
+			document.getElementById('user-km').value ='';
+			document.getElementById('user-age').value ='maggiorenne';	
+			//stamapa annulla				
+			document.getElementById('ticket-name').innerHTML = '';
+		    document.getElementById('ticket-price').innerHTML = '';
+		    document.getElementById('ticket').classList.remove('active');
 	}
 
 )
