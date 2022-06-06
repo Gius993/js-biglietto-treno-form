@@ -26,3 +26,12 @@ generateButton.addEventListener('click',
 	}
 );
 
+const cancelTicket = document.getElementById('cancel-ticket');
+cancelTicket.addEventListener('click',
+	
+	function() {
+		
+		alert('test');
+	}
+
+)
